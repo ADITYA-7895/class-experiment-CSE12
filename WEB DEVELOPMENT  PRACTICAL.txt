@@ -1,0 +1,48 @@
+ <DOCTYPE HTML>
+ <HTML "en" >
+ <HEAD>
+ </HEAD>
+ <BODY>
+ <H1> SEPTEMBER 2025 </H1>
+ <TABLE> <ELSE>
+ <TD> MONDAY </TD>
+ <TD> TUESDAY </TD>
+ <TD> WEDNESDAY </TD>
+ <TD> THURSDAY </TD>
+ <TD> FRIDAY </TD>
+ <TD> SATURDAY </TD>
+ <TD> SUNDAY </TD> <TR>
+
+ <TR><TD> 1 </TD>
+     <TD> 2 </TD>
+     <TD> 3 </TD>
+     <TD> 4 </TD>
+     <TD> 5 </TD>
+     <TD> 6 </TD>
+     <TD> 7 </TD>
+     <TD> 8 </TD>
+     <TD> 9 </TD>
+     <TD> 10 </TD>
+     <TD> 11</TD>
+     <TD> 13</TD>
+     <TD> 14</TD>
+     <TD> 15</TD>
+     <TD> 16</TD>
+     <TD> 17</TD>
+     <TD> 18</TD>
+     <TD> 19</TD>
+     <TD> 20</TD>
+     <TD> 21</TD>
+     <TD> 22</TD>
+     <TD> 23</TD>
+     <TD> 24</TD>
+     <TD> 25</TD>
+     <TD> 26</TD>
+     <TD> 27</TD>
+     <TD> 28</TD>
+     <TD> 29</TD>
+     <TD> 30</TD> 
+       </TABLE>
+       </BODY>
+       </HTML>
+      
