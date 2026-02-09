@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif; /* Font */
+            background-color: #f7f7f7; /* Page background color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 900px;               /* Total width */
+            margin: 50px auto;          /* Center page + margin */
+            background: #fff;
+            border: 1px solid #ddd;     /* Border */
+            padding: 20px;              /* Padding */
+            border-radius: 8px;
+        }
+
+        .product-box {
+            display: flex;
+            gap: 30px;
+        }
+
+        .product-image img {
+            width: 350px;            /* Image width */
+            height: 350px;           /* Image height */
+            border-radius: 10px;
+            border: 2px solid #ccc;  /* Border */
+            padding: 10px;           /* Padding */
+            background: #fff;
+        }
+
+        .product-details h1 {
+            font-size: 28px;         /* Text size */
+            color: #333;             /* Text color */
+            margin-bottom: 10px;     /* Margin */
+        }
+
+        .price {
+            font-size: 24px;
+            color: #e63946;          /* Color example */
+            margin: 15px 0;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;     /* Space below text */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;        /* Padding */
+            background: #1d3557;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 5px;        /* Rounded border */
+            text-decoration: none;     /* Remove underline */
+        }
+
+        .btn:hover {
+            background: #457b9d;        /* Hover color */
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="product-box">
+
+        <!-- Product Image -->
+        <div class="product-image">
+            <img src="https://smartixtech.com/cdn/shop/files/smartix-immerse-pro-premium-anc-wireless-headphone-701056_1800x.jpg?v=1731664412" alt="Product Image">
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h1>Smart Wireless Headphones</h1>
+
+            <p class="price">$79.99</p>
+
+            <p class="description">
+                Experience high-quality sound with our latest wireless headphones.
+                Featuring noise cancellation, comfortable ear cushions, and
+                long-lasting battery life. Perfect for music lovers and gamers.
+            </p>
+
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
