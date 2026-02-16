@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+
+ 
+</head>
+<body>
+
+    <h1>Hotel Room Booking Form</h1>
+
+    <form action="#" method="post">
+        <!-- Guest Information -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="fullname" placeholder="Enter your full name" required><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. +1 234 567 8900" required><br>
+
+        <!-- Booking Details -->
+        <label for="checkin">Check-In Date:</label><br>
+        <input type="date" id="checkin" name="checkin" required><br>
+
+        <label for="checkout">Check-Out Date:</label><br>
+        <input type="date" id="checkout" name="checkout" required><br>
+
+        <label for="guests">Number of Guests:</label><br>
+        <input type="number" id="guests" name="guests" min="1" max="10" value="1" required><br>
+
+        <label for="roomtype">Room Type:</label><br>
+        <select id="roomtype" name="roomtype" required><br>
+            <option value="">-- Select Room Type --</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="deluxe">Deluxe Room</option>
+            <option value="suite">Executive Suite</option>
+        </select>
+
+        <label for="special">Special Requests:</label><br>
+        <textarea id="special" name="special" placeholder="Enter any special requests or preferences..."></textarea><br>
+
+        <p class="note">* All bookings are subject to availability and confirmation.</p>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button type="submit">Aditya  Booking</button>
+            <input type="reset" value="Reset Form">
+        </div>
+    </form>
+
+</body>
+</html>
